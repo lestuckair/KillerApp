@@ -18,7 +18,7 @@ namespace KillerApp.DAL.General
             try
             {
                 connect.ConnectionString =
-                    "Server=localhost;Database=KillerApp;";
+                    "Data Source=mssql.fhict.local; Database=dbi339843; User Id=dbi339843; Password= Bwn4v$UZ";
                 connect.Open();
             }
             catch (Exception e)
