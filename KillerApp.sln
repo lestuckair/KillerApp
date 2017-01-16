@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KillerApp", "KillerApp\Kill
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KillerApp.Tests", "KillerApp.Tests\KillerApp.Tests.csproj", "{DAA7F05C-A79F-4011-8878-2844EB2D3A23}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KillerAppTests", "KillerAppTests\KillerAppTests.csproj", "{DE20FB60-1322-48FE-9016-A12B8E9BAE74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DAA7F05C-A79F-4011-8878-2844EB2D3A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAA7F05C-A79F-4011-8878-2844EB2D3A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAA7F05C-A79F-4011-8878-2844EB2D3A23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE20FB60-1322-48FE-9016-A12B8E9BAE74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE20FB60-1322-48FE-9016-A12B8E9BAE74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE20FB60-1322-48FE-9016-A12B8E9BAE74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE20FB60-1322-48FE-9016-A12B8E9BAE74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

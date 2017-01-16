@@ -197,8 +197,25 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AreaController.cs" />
+    <Compile Include="Controllers\BattleController.cs" />
+    <Compile Include="Controllers\CharacterController.cs" />
+    <Compile Include="Controllers\EventsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\InventoryController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="DAL\General\Datacom.cs" />
+    <Compile Include="DAL\Interfaces\IArea.cs" />
+    <Compile Include="DAL\Interfaces\ICharacter.cs" />
+    <Compile Include="DAL\Interfaces\IEvent.cs" />
+    <Compile Include="DAL\Interfaces\IItem.cs" />
+    <Compile Include="DAL\MSSQL\MssqlAreaContext.cs" />
+    <Compile Include="DAL\MSSQL\MssqlCharacterContext.cs" />
+    <Compile Include="DAL\MSSQL\MssqlEventContext.cs" />
+    <Compile Include="DAL\MSSQL\MssqlItemContext.cs" />
+    <Compile Include="DAL\Repository\AreaRepository.cs" />
+    <Compile Include="DAL\Repository\CharacterRepository.cs" />
+    <Compile Include="DAL\Repository\EventRepository.cs" />
+    <Compile Include="DAL\Repository\ItemRepository.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -279,6 +296,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Battle\" />
+    <Folder Include="Views\Character\" />
+    <Folder Include="Views\Events\" />
+    <Folder Include="Views\Inventory\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
