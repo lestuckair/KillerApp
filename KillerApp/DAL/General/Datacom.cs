@@ -9,7 +9,7 @@ namespace KillerApp.DAL.General
     public static class Datacom
     {
         public static SqlConnection connect { get; set; }
-
+        public static SqlCommand command { get; set; }
         
         public static bool OpenConnection()
         {

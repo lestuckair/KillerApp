@@ -204,14 +204,17 @@
     <Compile Include="Controllers\InventoryController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="DAL\General\Datacom.cs" />
+    <Compile Include="DAL\Interfaces\IAccount.cs" />
     <Compile Include="DAL\Interfaces\IArea.cs" />
     <Compile Include="DAL\Interfaces\ICharacter.cs" />
     <Compile Include="DAL\Interfaces\IEvent.cs" />
     <Compile Include="DAL\Interfaces\IItem.cs" />
+    <Compile Include="DAL\MSSQL\MssqlAccountContext.cs" />
     <Compile Include="DAL\MSSQL\MssqlAreaContext.cs" />
     <Compile Include="DAL\MSSQL\MssqlCharacterContext.cs" />
     <Compile Include="DAL\MSSQL\MssqlEventContext.cs" />
     <Compile Include="DAL\MSSQL\MssqlItemContext.cs" />
+    <Compile Include="DAL\Repository\AccountRepository.cs" />
     <Compile Include="DAL\Repository\AreaRepository.cs" />
     <Compile Include="DAL\Repository\CharacterRepository.cs" />
     <Compile Include="DAL\Repository\EventRepository.cs" />
@@ -219,6 +222,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Account.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Area.cs" />
     <Compile Include="Models\Character.cs" />
